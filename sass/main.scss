@@ -1,3 +1,5 @@
+@import '_vars';
+
 body {
     font-family: 'Playfair Display', serif;
 }
@@ -34,12 +36,12 @@ main {
 }
 
 .headerText h1 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     margin: 60px auto;
-    background-color: coral;
-    color: lightgray;
-    width: 170px;
+    background-color:$main-blue;
+    color: $main-orange;
+    width: 190px;
 }
 
 .mainInfo {
@@ -56,6 +58,11 @@ main {
     margin-bottom: 50px;
 }
 
+.mainInfo p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 .finalText p {
     text-align: center;
     font-size: 23px;
@@ -66,6 +73,8 @@ main {
 
 /*640px*/
 @media screen and (min-width:40em) {
+    .topheaderText {font-size: 60px;}
+
     .header {
         display: flex;
     }
@@ -89,6 +98,6 @@ main {
 }
 
 /*990px*/
-@media screen and (min-width: 61.875) {
-
+@media screen and (min-width: 61.875em) {
+    .topheaderText {font-size: 70px;}
 }
