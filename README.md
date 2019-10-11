@@ -11,4 +11,4 @@ Click on the link and check it out!
 ## History
 Part.1 Created October 10, 2019.
 ## Credits
-Hyeryn Kim
+Hyeryn Kim - h_kim90825@fanshaweonline.ca
