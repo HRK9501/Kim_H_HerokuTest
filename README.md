@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Heroku Test}
+# Heroku Test
 One-page, interactive product webpage featuring the NEW-tro.
 ## Usage
 Click on the link and check it out!
@@ -14,6 +12,3 @@ Click on the link and check it out!
 Part.1 Created October 10, 2019.
 ## Credits
 Hyeryn Kim
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
